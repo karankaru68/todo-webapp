@@ -1,0 +1,19 @@
+Now, it's time to deploy the app.
+
+For that, follow the below steps.
+
+1. Use 'pip freeze > requirements.txt' to mark 'streamlit' and it's dependencies in 'requirements.txt'. This will help us to install all the packages on the server at once.
+
+2. Well, 'pip freeze' will list out all the packages for this app to work but '> requirements.txt' is to mark them in a file.
+
+3. Now, you need just the files that are really for the web app. So, create a new folder with 'web.py', 'functions.py' and 'todos.txt'. Create an environment '.venv' and install 'streamlit'. Now, our environment is also ready.
+
+4. You now need to create a '.gitignore' file to mark '.venv' & '.idea' because we do not want that on GitHub. Include this 'readme.txt' as well.
+
+5. So, now create a new 'public' repo and name it 'todo-webapp'. Copy the URL ('https://github.com/karankaru68/todo-webapp.git' in our case) and attach that git account to push the changes.
+
+6. Now, run the app again using 'streamlit run web.py' and open the button 'Deploy' at the top right corner. You need to sign-in to 'streamlit'. You should be signing in through GitHub account so that you have less steps selecting the repo and all.
+
+7. Now the simple step is to write your details and select your main file 'todo-app/web.py' -> Click 'Deploy'.
+
+8. The app URL: 'https://karankaru68-todo-webapp-todo-appweb-prod-vj6ohk.streamlit.app/'.
